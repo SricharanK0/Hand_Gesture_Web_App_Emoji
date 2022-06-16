@@ -1,0 +1,78 @@
+body
+{
+  color: white;
+  background: linear-gradient(90deg, rgba(24,86,239,1) 18%, rgba(160,109,15,1) 45%, rgba(125,11,11,1) 64%, rgba(155,14,14,1) 84%, rgba(2,0,36,1) 100%, rgba(0,212,255,1) 100%);
+}
+span
+{
+  font-size: 30px;
+}
+#camera , #result
+{
+  border: 2px dashed black;
+  width: 350px;
+  height: 300px; 
+}
+#result_emotion_name ,#result_emotion_name_2  
+{
+  color: rgb(175, 20, 217);
+  font-weight:bold;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(233, 1, 1),
+  0 0 82px rgb(235, 25, 25),
+  0 0 92px rgb(255, 0, 0),
+  0 0 102px rgb(136, 0, 255),
+  0 0 151px rgb(153, 0, 255);
+  
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+  text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px rgb(233, 1, 1),
+  0 0 82px rgb(235, 25, 25),
+  0 0 92px rgb(255, 0, 0),
+  0 0 102px rgb(136, 0, 255),
+  0 0 151px rgb(153, 0, 255);
+}
+.heading{
+  font-size:25px;
+  border-radius:25px;
+  letter-spacing:10px;
+  color: #fff;
+  animation:example 5s infinite;
+
+ 
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(233, 1, 1),
+      0 0 82px rgb(235, 25, 25),
+      0 0 92px rgb(255, 0, 0),
+      0 0 102px rgb(136, 0, 255),
+      0 0 151px rgb(153, 0, 255);
+}
+label{
+  color:green;
+  background-color:white;
+  border-radius:25px;
+  padding:4px;
+}
+@keyframes example {
+  0% {box-shadow: 10px 20px 30px rgb(0, 255, 26);}
+  25% {box-shadow: 10px 20px 30px blue;}
+  50% {box-shadow: 10px 20px 30px red;}
+  100% {box-shadow: 10px 20px 30px yellow;}
+}
+
